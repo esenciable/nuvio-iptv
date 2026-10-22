@@ -1,0 +1,66 @@
+name: refresh
+
+# Rebuilds esencial.m3u and epg.xml, then commits only those two files.
+# A failed download or a suspiciously short feed fails the job on purpose:
+# an old guide is better than a silently empty one.
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**'
+
+permissions:
+  contents: write
+
+# One refresh at a time: two parallel runs can each push.
+concurrency:
+  group: refresh-playlist
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run generator tests
+        run: node --test tools/test/
+
+      # The key changes every hour, so sources are reused only within the same
+      # hour; restore-keys keeps old files as a fallback for a flaky download.
+      - name: Compute cache stamp
+        id: stamp
+        run: echo "value=$(date -u +%Y-%m-%d-%H)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache EPG sources
+        uses: actions/cache@v4
+        with:
+          path: .cache/epg
+          key: epg-sources-${{ steps.stamp.outputs.value }}
+          restore-keys: |
+            epg-sources-
+
+      - name: Build playlist and guide
+        run: node tools/build.mjs
+
+      - name: Commit refreshed files
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- esencial.m3u epg.xml; then
+            echo "no changes in esencial.m3u / epg.xml"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          bot_email="41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "$bot_email"
+          git add -- esencial.m3u epg.xml
+          git commit -m "chore: refresh playlist and guide [skip ci]"
+          git push || (git pull --rebase --autostash && git push)

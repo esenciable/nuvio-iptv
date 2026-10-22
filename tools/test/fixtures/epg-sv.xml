@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv source-info-name="IPTV-EPG.org" source-info-url="https://iptv-epg.org">
+  <channel id="Canal2.sv">
+    <display-name>SV - Canal 2 TCS</display-name>
+    <icon src="http://example.test/epg-canal2.png"/>
+  </channel>
+  <channel id="Canal4.sv">
+    <display-name>SV - Canal 4</display-name>
+  </channel>
+  <channel id="ESPN.sv">
+    <display-name>SV - ESPN</display-name>
+  </channel>
+  <programme start="20260101120000 +0000" stop="20260101130000 +0000" channel="Canal2.sv">
+    <title>Noticiero</title>
+  </programme>
+  <programme start="20260101060000 +0000" stop="20260101070000 +0000" channel="Canal2.sv">
+    <title>Before Window</title>
+  </programme>
+  <programme start="20260102223000 +0000" stop="20260102233000 +0000" channel="Canal2.sv">
+    <title>After Window</title>
+  </programme>
+  <programme start="20260102210000 +0000" stop="20260102230000 +0000" channel="Canal2.sv">
+    <title>Clipped At The Edge</title>
+  </programme>
+  <programme start="20260101120000 +0000" stop="20260101130000 +0000" channel="Canal4.sv">
+    <title>No Data</title>
+  </programme>
+</tv>

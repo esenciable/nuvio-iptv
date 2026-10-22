@@ -1,0 +1,20 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="http://example.test/canal2.png" group-title="El Salvador - TCS",Canal 2 TCS SD
+#EXTVLCOPT:http-user-agent=TestAgent/1.0
+http://stream.test/canal2.m3u8
+
+#EXTINF:-1 tvg-id="animextv" tvg-logo="http://example.test/canal2.png" group-title="El Salvador - TCS",Canal 2 TCS SD [Opc.2]
+http://stream.test/canal2-opc2.m3u8
+
+#EXTINF:-1 tvg-logo="http://example.test/espn.png" group-title="ESPN",ESPN HD
+http://stream.test/espn.m3u8
+
+#EXTINF:-1 tvg-logo="http://example.test/tyc.png" group-title="Deportes", TyC Sports
+http://stream.test/tyc.m3u8
+
+#EXTINF:-1 tvg-logo="http://example.test/unknown.png" group-title="Deportes",Totally Unknown Channel
+http://stream.test/unknown.m3u8
+
+#EXTINF:-1 group-title="Deportes",Mystery Sports Net
+http://stream.test/mystery.m3u8

@@ -1,0 +1,5 @@
+{
+  "// Test alias: plain name matching would pick TyCSports.gt from the GT file.": "",
+  "// It pins the Argentine id instead, exactly like the curated table does.": "",
+  "TyC Sports": "TyCSports.ar"
+}

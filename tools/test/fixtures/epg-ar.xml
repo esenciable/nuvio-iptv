@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv source-info-name="IPTV-EPG.org" source-info-url="https://iptv-epg.org">
+  <channel id="TyCSports.ar">
+    <display-name>AR - TyC Sports</display-name>
+  </channel>
+  <programme start="20260101120000 +0000" stop="20260101130000 +0000" channel="TyCSports.ar">
+    <title>TyC Sports Central</title>
+  </programme>
+</tv>
