@@ -1,0 +1,24 @@
+name: test
+# The refresh job only runs on main and on schedule, so a pull request would merge with
+# nothing checking the generator. These tests are fixture-driven and never touch the network,
+# which is what makes them cheap enough to run on every push.
+on:
+  pull_request:
+    paths:
+      - 'tools/**'
+      - '.github/workflows/test.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**'
+      - '.github/workflows/test.yml'
+jobs:
+  generator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run generator tests
+        run: node --test tools/test/*.test.mjs
