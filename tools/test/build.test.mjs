@@ -6,6 +6,9 @@ import { dirname, join, resolve } from 'node:path';
 import { after, before, describe, it } from 'node:test';
 import { fileURLToPath } from 'node:url';
 
+import { DEFAULT_COUNTRIES } from '../build.mjs';
+import { countryOfEpgId } from '../lib/epg.mjs';
+
 const here = dirname(fileURLToPath(import.meta.url));
 const repoRoot = resolve(here, '..', '..');
 const fixtures = join(here, 'fixtures');
@@ -96,6 +99,14 @@ describe('playlist output', () => {
     assert.ok(guide.includes('<title>TyC Sports Central</title>'));
     assert.equal(guide.includes('Wrong Country Programme'), false);
   });
+
+  it('honours a blocked alias: no id, and no auto-match behind it', () => {
+    const playlist = readOut('esencial.m3u');
+    // "Canal 4" is in the table as "!". It would otherwise auto-match Canal4.sv.
+    assert.equal(playlist.includes('tvg-id="Canal4.sv"'), false, 'a blocked name was auto-matched');
+    assert.equal(playlist.includes('tvg-id="!"'), false, 'the block marker leaked as an id');
+    assert.equal(readOut('epg.xml').includes('Canal4.sv'), false, 'a blocked id got a grid');
+  });
 });
 
 describe('guide output', () => {
@@ -122,11 +133,18 @@ describe('guide output', () => {
   });
 
   it('skips placeholder-only programmes', () => {
-    assert.equal(readOut('epg.xml').includes('No Data'), false);
+    const guide = readOut('epg.xml');
+    // Titles the sources publish instead of listings. A gap is honest, filler is a lie: the
+    // player shows a filled grid that matches nothing on screen.
+    for (const filler of ['No Data', 'Paid Programming', 'Programa pagado', 'SIGN OFF', 'No Match Today']) {
+      assert.equal(guide.includes(filler), false, `filler reached the guide: ${filler}`);
+    }
+    // And the real neighbours of that filler still survive, so the filter is not dropping rows.
+    assert.ok(guide.includes('<title>Noticiero</title>'));
   });
 
   it('reports the run summary on stdout', () => {
-    assert.match(run.stdout, /entries:\s*6/);
+    assert.match(run.stdout, /entries:\s*7/);
     assert.match(run.stdout, /with id:\s*4/);
     assert.match(run.stdout, /distinct ids:\s*3/);
     assert.match(run.stdout, /TyC Sports\s*->\s*TyCSports\.ar/);
@@ -146,7 +164,7 @@ describe('dry run and feed guards', () => {
       '--dry-run',
     ]);
     assert.equal(dryRun.status, 0, dryRun.stderr);
-    assert.match(dryRun.stdout, /entries:\s*6/);
+    assert.match(dryRun.stdout, /entries:\s*7/);
     assert.equal(existsSync(dryOut) ? readdirSync(dryOut).length : 0, 0);
   });
 
@@ -160,6 +178,41 @@ describe('dry run and feed guards', () => {
       '--min-entries', '1000',
     ]);
     assert.notEqual(guarded.status, 0);
-    assert.match(guarded.stderr, /only 6 entries/);
+    assert.match(guarded.stderr, /only 7 entries/);
+  });
+});
+
+describe('curated alias table', () => {
+  const table = JSON.parse(readFileSync(join(repoRoot, 'tools', 'aliases.json'), 'utf8'));
+  const aliases = Object.entries(table).filter(([key]) => !key.startsWith('//'));
+  const published = [...readFileSync(join(repoRoot, 'esencial.m3u'), 'utf8').split('\n')]
+    .filter(line => line.startsWith('#EXTINF'))
+    .map(line => line.split(',').pop().trim());
+  const workflow = readFileSync(join(repoRoot, '.github', 'workflows', 'refresh.yml'), 'utf8');
+
+  // The countries the nightly job really downloads. Read from the command it runs, so the
+  // table cannot pin a country the build stopped fetching.
+  const scanned = new Set(DEFAULT_COUNTRIES);
+  if (/--include-us/.test(workflow)) scanned.add('us');
+
+  it('keys name channels of the playlist we publish', () => {
+    const names = new Set(published);
+    for (const [name] of aliases) {
+      assert.ok(names.has(name), `"${name}" is not a channel of esencial.m3u: the pin is dead text`);
+    }
+  });
+
+  it('values name a country the nightly build downloads', () => {
+    for (const [name, id] of aliases) {
+      const country = countryOfEpgId(id);
+      // Provider-labelled ids (.peacocktv) carry no country, so nothing can be proven from the
+      // id alone; the alias comments say which file publishes them.
+      if (country === null) continue;
+      assert.ok(
+        scanned.has(country),
+        `"${name}" pins ${id} from '${country}', which the build never downloads: the playlist `
+        + `would advertise an id with no programmes, an empty grid that looks like the source's fault`,
+      );
+    }
   });
 });

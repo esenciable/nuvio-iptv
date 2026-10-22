@@ -17,9 +17,15 @@
 
 export const IPTV_EPG_BASE = 'https://iptv-epg.org/files';
 
+/** An alias value that means "this name must never carry a guide", not even by auto-matching. */
+export const NO_GUIDE = '!';
+
 /** What the source writes when it has no data. Showing "No Data" in the grid looks broken:
- *  a gap is better, because the player already knows how to draw one. */
-const PLACEHOLDER_TITLES = /^(no data|no informado|sin datos|sin informacion|sin información|n\/a|na|to be announced|tba|por confirmar|a confirmar)$/i;
+ *  a gap is better, because the player already knows how to draw one.
+ *  The sports channels are the worst offenders: beIN runs "Paid Programming"/"Programa pagado"
+ *  in nearly every slot and the per-team LaLiga channels run "No Game Today"/"SIGN OFF".
+ *  Every phrase here was read in a published file, not guessed. */
+const PLACEHOLDER_TITLES = /^(no data|no informado|sin datos|sin informacion|sin información|n\/a|na|to be announced|tba|por confirmar|a confirmar|paid programming|programa pagado|sign off|signing off|no match today|no game today)$/i;
 
 /** Quality codes and decorations that do not identify the channel. */
 const NOISE = /\b(fhd|uhd|4k|hd|sd|hevc|h265|h264|1080p|720p|576p|480p|multi|dual|plus|opc|backup)\b/;
@@ -155,7 +161,7 @@ export function matchEpgChannel(name, index, options = {}) {
   const aliases = options.aliases ?? {};
   const order = options.order ?? [];
   const direct = aliases[name] ?? aliases[normalizeChannelName(name)];
-  if (direct !== undefined) return direct;
+  if (direct !== undefined) return direct === NO_GUIDE ? null : direct;
 
   const key = normalizeChannelName(name);
   const hint = epgCountryHint(name);

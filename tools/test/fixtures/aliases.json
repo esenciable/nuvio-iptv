@@ -1,5 +1,7 @@
 {
   "// Test alias: plain name matching would pick TyCSports.gt from the GT file.": "",
   "// It pins the Argentine id instead, exactly like the curated table does.": "",
-  "TyC Sports": "TyCSports.ar"
+  "TyC Sports": "TyCSports.ar",
+  "// A blocked name: Canal 4 would auto-match Canal4.sv, and the table says it must not.": "",
+  "Canal 4": "!"
 }

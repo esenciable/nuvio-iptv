@@ -49,7 +49,10 @@ jobs:
             epg-sources-
 
       - name: Build playlist and guide
-        run: node tools/build.mjs
+        # us is included because the international feeds the alias table pins live only there
+        # (TyCSportsInt.us, TelemundoDeportesAhora.peacocktv). It costs a 497 MB download per
+        # run: the host ignores Range requests, so a partial fetch is not possible.
+        run: node tools/build.mjs --include-us
 
       - name: Commit refreshed files
         run: |
