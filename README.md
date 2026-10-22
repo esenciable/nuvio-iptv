@@ -116,7 +116,7 @@ node tools/build.mjs --fixture tools/test/fixtures --dry-run   # offline, no net
 Tests (offline, no network, fixture-based):
 
 ```sh
-node --test tools/test/
+node --test tools/test/*.test.mjs
 ```
 
 The tests cover the header `url-tvg`, `tvg-id` only on resolved channels, `epg.xml` never declaring

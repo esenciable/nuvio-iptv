@@ -32,7 +32,7 @@ jobs:
           node-version: '22'
 
       - name: Run generator tests
-        run: node --test tools/test/
+        run: node --test tools/test/*.test.mjs
 
       # The key changes every hour, so sources are reused only within the same
       # hour; restore-keys keeps old files as a fallback for a flaky download.
