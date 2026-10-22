@@ -111,10 +111,9 @@
   <channel id="RealMadridTV.es"><display-name>Real Madrid TV (España)</display-name><icon src="https://i.postimg.cc/wT1F2ffL/real-madrid-tv-es.png"/></channel>
   <channel id="TyCSports.ar"><display-name>TyC Sports (Internacional)</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png"/></channel>
   <channel id="TNTSports.ar"><display-name>TNT Sports</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/960px-TNT_Sports_2021_logo.svg.png"/></channel>
-  <channel id="DIRECTVSports.uy"><display-name>DSports [Opc. 1]</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png"/></channel>
-  <channel id="DIRECTVSports.ec"><display-name>DSports (ECU) [Opc. 5]</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png"/></channel>
-  <channel id="DIRECTVSports2.uy"><display-name>DSports 2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png"/></channel>
-  <channel id="DIRECTVSports+.uy"><display-name>DSports +</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png"/></channel>
+  <channel id="DIRECTVSports.ec"><display-name>DSports [Opc. 1]</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png"/></channel>
+  <channel id="DIRECTVSports2.ec"><display-name>DSports 2</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png"/></channel>
+  <channel id="DIRECTVSports+.ec"><display-name>DSports +</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png"/></channel>
   <channel id="FOXSports.sv"><display-name>FOX Sports</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png"/></channel>
   <channel id="WinSports.co"><display-name>Win Sports HD</display-name><icon src="https://i.imgur.com/DuSSrHV.png"/></channel>
   <channel id="WinSports+.co"><display-name>Win+ HD</display-name><icon src="https://i.imgur.com/0UN87vB.png"/></channel>
@@ -248,7 +247,7 @@
   <programme start="20261023130000 +0000" stop="20261023163000 +0000" channel="CANAL9.uy">
     <title>TL 9 al amanecer</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="CANAL9.uy">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="CANAL9.uy">
     <category>Variedades</category>
     <title>¡Qué mañana!</title>
   </programme>
@@ -321,7 +320,7 @@
   <programme start="20261023110000 +0000" stop="20261023120000 +0000" channel="Canal12.sv">
     <title>Noticiero Hechos de la noche</title>
   </programme>
-  <programme start="20261023120000 +0000" stop="20261023164458 +0000" channel="Canal12.sv">
+  <programme start="20261023120000 +0000" stop="20261023165211 +0000" channel="Canal12.sv">
     <title>Fin de transmisión</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="Canal7-Televisiete.gt">
@@ -405,7 +404,7 @@
   <programme start="20261023113000 +0000" stop="20261023120000 +0000" channel="Canal7-Televisiete.gt">
     <title>Noticiero Univisión</title>
   </programme>
-  <programme start="20261023120000 +0000" stop="20261023164458 +0000" channel="Canal7-Televisiete.gt">
+  <programme start="20261023120000 +0000" stop="20261023165211 +0000" channel="Canal7-Televisiete.gt">
     <title>Cierre de transmisión</title>
   </programme>
   <programme start="20261022033000 +0000" stop="20261022043000 +0000" channel="Guatevision.gt">
@@ -519,7 +518,7 @@
   <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="Guatevision.gt">
     <title>Guatemúsica</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="Guatevision.gt">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="Guatevision.gt">
     <title>Guatemúsica</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="CanalAntigua.gt">
@@ -657,7 +656,7 @@
   <programme start="20261023144500 +0000" stop="20261023163000 +0000" channel="CanalAntigua.gt">
     <title>a las 8:45 PM</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="CanalAntigua.gt">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="CanalAntigua.gt">
     <title>Dueños del balón</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="Azteca7.mx">
@@ -813,7 +812,7 @@
   <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="Azteca7.mx">
     <title>Inova</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="Azteca7.mx">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="Azteca7.mx">
     <title>Inova</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022050000 +0000" channel="RCN.co">
@@ -915,7 +914,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="RCN.co">
     <title>Noticiero Alerta</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="RCN.co">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="RCN.co">
     <title>RCN Noticias</title>
   </programme>
   <programme start="20261022034500 +0000" stop="20261022050000 +0000" channel="Caracol.co">
@@ -1026,7 +1025,7 @@
   <programme start="20261023151500 +0000" stop="20261023153000 +0000" channel="Caracol.co">
     <title>Día a día I</title>
   </programme>
-  <programme start="20261023153000 +0000" stop="20261023164458 +0000" channel="Caracol.co">
+  <programme start="20261023153000 +0000" stop="20261023165211 +0000" channel="Caracol.co">
     <title>Noticias 5:30 Caracol</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022035500 +0000" channel="Telepacifico.co">
@@ -1272,7 +1271,7 @@
   <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="Telepacifico.co">
     <title>Santo Rosario</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="Telepacifico.co">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="Telepacifico.co">
     <title>Telepacífico noticias</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022033000 +0000" channel="CanalCapital.co">
@@ -1344,7 +1343,7 @@
   <programme start="20261023100000 +0000" stop="20261023160000 +0000" channel="CanalCapital.co">
     <title>Fin de transmisión</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="CanalCapital.co">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="CanalCapital.co">
     <title>Portal Eureka</title>
   </programme>
   <programme start="20261022033000 +0000" stop="20261022040000 +0000" channel="Teleamazonas.ec">
@@ -1511,7 +1510,7 @@
   <programme start="20261023150000 +0000" stop="20261023154500 +0000" channel="Teleamazonas.ec">
     <title>24 horas estelar</title>
   </programme>
-  <programme start="20261023154500 +0000" stop="20261023164458 +0000" channel="Teleamazonas.ec">
+  <programme start="20261023154500 +0000" stop="20261023165211 +0000" channel="Teleamazonas.ec">
     <title>24 horas 1ra emisión local</title>
   </programme>
   <programme start="20261022033000 +0000" stop="20261022050000 +0000" channel="TCtv.ec">
@@ -1624,7 +1623,7 @@
     <category>Business</category>
     <title>Archivos del Destino</title>
   </programme>
-  <programme start="20261023154000 +0000" stop="20261023164458 +0000" channel="TCtv.ec">
+  <programme start="20261023154000 +0000" stop="20261023165211 +0000" channel="TCtv.ec">
     <title>DespierTC</title>
   </programme>
   <programme start="20261022033000 +0000" stop="20261022060000 +0000" channel="AMERICATELEVISION.py">
@@ -1753,8 +1752,11 @@
   <programme start="20261023130000 +0000" stop="20261023150000 +0000" channel="AMERICATELEVISION.py">
     <title>América noticias - Primera edición local</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="AMERICATELEVISION.py">
+  <programme start="20261023150000 +0000" stop="20261023165000 +0000" channel="AMERICATELEVISION.py">
     <title>América noticias - Primera edición</title>
+  </programme>
+  <programme start="20261023165000 +0000" stop="20261023165211 +0000" channel="AMERICATELEVISION.py">
+    <title>América deportes</title>
   </programme>
   <programme start="20261022033000 +0000" stop="20261022033500 +0000" channel="TELEFE.uy">
     <title>Check In</title>
@@ -1885,7 +1887,7 @@
   <programme start="20261023130000 +0000" stop="20261023153000 +0000" channel="TELEFE.uy">
     <title>Buen Telefe</title>
   </programme>
-  <programme start="20261023153000 +0000" stop="20261023164458 +0000" channel="TELEFE.uy">
+  <programme start="20261023153000 +0000" stop="20261023165211 +0000" channel="TELEFE.uy">
     <category>Variedades</category>
     <title>A la Barbarossa</title>
   </programme>
@@ -1988,7 +1990,7 @@
   <programme start="20261023130000 +0000" stop="20261023163000 +0000" channel="ELNueve.ar">
     <title>TL 9 al amanecer</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="ELNueve.ar">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="ELNueve.ar">
     <title>¡Qué mañana!</title>
   </programme>
   <programme start="20261022043000 +0000" stop="20261022061500 +0000" channel="ElTrece.py">
@@ -2054,7 +2056,7 @@
   <programme start="20261023150000 +0000" stop="20261023163000 +0000" channel="ElTrece.py">
     <title>La mañana con Moria</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="ElTrece.py">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="ElTrece.py">
     <title>Puro show</title>
   </programme>
   <programme start="20261022040000 +0000" stop="20261022060000 +0000" channel="CineAr.ar">
@@ -2127,12 +2129,9 @@
     <category>Drama</category>
     <title>No te olvides de mí</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="CineAr.ar">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="CineAr.ar">
     <category>Comedia</category>
     <title>La guerra la gano yo</title>
-  </programme>
-  <programme start="20261022024500 +0000" stop="20261022040000 +0000" channel="SNT.py">
-    <title>Tres hermanas</title>
   </programme>
   <programme start="20261022040000 +0000" stop="20261022050000 +0000" channel="SNT.py">
     <title>Nazaré</title>
@@ -2206,11 +2205,8 @@
   <programme start="20261023113000 +0000" stop="20261023153000 +0000" channel="SNT.py">
     <title>La mañana de cada día</title>
   </programme>
-  <programme start="20261023153000 +0000" stop="20261023164458 +0000" channel="SNT.py">
+  <programme start="20261023153000 +0000" stop="20261023165211 +0000" channel="SNT.py">
     <title>Arriba Paraguay</title>
-  </programme>
-  <programme start="20261022024500 +0000" stop="20261022034500 +0000" channel="Telefuturo.py">
-    <title>Vale todo</title>
   </programme>
   <programme start="20261022034500 +0000" stop="20261022050000 +0000" channel="Telefuturo.py">
     <title>Baila conmigo Paraguay</title>
@@ -2260,7 +2256,7 @@
   <programme start="20261023112000 +0000" stop="20261023150000 +0000" channel="Telefuturo.py">
     <title>Día a día</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="Telefuturo.py">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="Telefuturo.py">
     <title>Vive la vida</title>
   </programme>
   <programme start="20261022040000 +0000" stop="20261022050000 +0000" channel="latele.py">
@@ -2374,7 +2370,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="latele.py">
     <title>El manantial</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="latele.py">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="latele.py">
     <title>Karu Pora</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="ParaguayTV.py">
@@ -2461,7 +2457,7 @@
   <programme start="20261023120000 +0000" stop="20261023140000 +0000" channel="ParaguayTV.py">
     <title>Duplex nacional</title>
   </programme>
-  <programme start="20261023140000 +0000" stop="20261023164458 +0000" channel="ParaguayTV.py">
+  <programme start="20261023140000 +0000" stop="20261023165211 +0000" channel="ParaguayTV.py">
     <title>La mañana nacional</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="C9N.py">
@@ -2515,7 +2511,7 @@
   <programme start="20261023120000 +0000" stop="20261023150000 +0000" channel="C9N.py">
     <title>Reporte matinal</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="C9N.py">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="C9N.py">
     <title>C9 a las 9</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="Telemicro.gt">
@@ -2596,12 +2592,8 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="Telemicro.gt">
     <title>La opción de la mañana</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="Telemicro.gt">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="Telemicro.gt">
     <title>Matinal</title>
-  </programme>
-  <programme start="20261022024800 +0000" stop="20261022030000 +0000" channel="Canal33.es">
-    <category>Infantil</category>
-    <title>L'abella Maia</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022031300 +0000" channel="Canal33.es">
     <category>Infantil</category>
@@ -3233,7 +3225,7 @@
     <category>Series</category>
     <title>Henry Danger</title>
   </programme>
-  <programme start="20261023163700 +0000" stop="20261023164458 +0000" channel="Canal33.es">
+  <programme start="20261023163700 +0000" stop="20261023165211 +0000" channel="Canal33.es">
     <category>Series</category>
     <title>Henry Danger : La hora del poder (I)</title>
   </programme>
@@ -3311,7 +3303,7 @@
   <programme start="20261023120000 +0000" stop="20261023130000 +0000" channel="Antena3.cr">
     <title>Noticias de la mañana</title>
   </programme>
-  <programme start="20261023130000 +0000" stop="20261023164458 +0000" channel="Antena3.cr">
+  <programme start="20261023130000 +0000" stop="20261023165211 +0000" channel="Antena3.cr">
     <title>Espejo público</title>
   </programme>
   <programme start="20261022040000 +0000" stop="20261022055500 +0000" channel="TRECE.es">
@@ -3418,7 +3410,7 @@
     <category>Cine</category>
     <title>La legión invencible</title>
   </programme>
-  <programme start="20261023152500 +0000" stop="20261023164458 +0000" channel="TRECE.es">
+  <programme start="20261023152500 +0000" stop="20261023165211 +0000" channel="TRECE.es">
     <category>Cine</category>
     <title>El piel roja</title>
   </programme>
@@ -3454,7 +3446,7 @@
     <category>Información</category>
     <title>Teledeporte</title>
   </programme>
-  <programme start="20261023140000 +0000" stop="20261023164458 +0000" channel="Teledeporte.es">
+  <programme start="20261023140000 +0000" stop="20261023165211 +0000" channel="Teledeporte.es">
     <category>Información</category>
     <title>Teledeporte</title>
   </programme>
@@ -3558,7 +3550,7 @@
     <category>Entretenimiento</category>
     <title>La tarde, aquí y ahora</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="CanalSurAndalucia.es">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="CanalSurAndalucia.es">
     <category>Información</category>
     <title>Canal Sur Noticias 2</title>
   </programme>
@@ -3704,7 +3696,7 @@
   <programme start="20261023152000 +0000" stop="20261023161000 +0000" channel="bitMe.mx">
     <title>Caballeros del Zodiaco Omega</title>
   </programme>
-  <programme start="20261023161000 +0000" stop="20261023164458 +0000" channel="bitMe.mx">
+  <programme start="20261023161000 +0000" stop="20261023165211 +0000" channel="bitMe.mx">
     <title>Megalobox</title>
   </programme>
   <programme start="20261022025300 +0000" stop="20261022031800 +0000" channel="ADULTSWIM.uy">
@@ -4085,7 +4077,7 @@
     <category>Animación</category>
     <title>La Liga de la Justicia</title>
   </programme>
-  <programme start="20261023163900 +0000" stop="20261023164458 +0000" channel="ADULTSWIM.uy">
+  <programme start="20261023163900 +0000" stop="20261023165211 +0000" channel="ADULTSWIM.uy">
     <category>Animación</category>
     <title>Guerreros valientes</title>
   </programme>
@@ -4164,7 +4156,7 @@
     <category>Terror</category>
     <title>La reunión del Diablo</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="StudioUniversal.sv">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="StudioUniversal.sv">
     <category>Romántica</category>
     <title>Intercambio de hermanas: Navidad en la ciudad</title>
   </programme>
@@ -4303,7 +4295,7 @@
   <programme start="20261023153000 +0000" stop="20261023161500 +0000" channel="UniversalTV.sv">
     <title>Chicago Med</title>
   </programme>
-  <programme start="20261023161500 +0000" stop="20261023164458 +0000" channel="UniversalTV.sv">
+  <programme start="20261023161500 +0000" stop="20261023165211 +0000" channel="UniversalTV.sv">
     <title>La ley y el orden: UVE</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022034500 +0000" channel="UniversalPremiere.mx">
@@ -4510,7 +4502,7 @@
     <category>Series</category>
     <title>House M.D.</title>
   </programme>
-  <programme start="20261023164000 +0000" stop="20261023164458 +0000" channel="UniversalPremiere.mx">
+  <programme start="20261023164000 +0000" stop="20261023165211 +0000" channel="UniversalPremiere.mx">
     <category>Series</category>
     <title>FBI</title>
   </programme>
@@ -4730,7 +4722,7 @@
     <category>Series</category>
     <title>Exhumed</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="UniversalCrime.mx">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="UniversalCrime.mx">
     <category>Series</category>
     <title>The Real Murders of Atlanta</title>
   </programme>
@@ -4794,7 +4786,7 @@
     <category>Acción</category>
     <title>Sin escape</title>
   </programme>
-  <programme start="20261023142900 +0000" stop="20261023164458 +0000" channel="TNT.sv">
+  <programme start="20261023142900 +0000" stop="20261023165211 +0000" channel="TNT.sv">
     <category>Terror</category>
     <title>Infección</title>
   </programme>
@@ -4868,7 +4860,7 @@
   <programme start="20261023135900 +0000" stop="20261023151500 +0000" channel="HBO.sv">
     <title>Guerra</title>
   </programme>
-  <programme start="20261023151500 +0000" stop="20261023164458 +0000" channel="HBO.sv">
+  <programme start="20261023151500 +0000" stop="20261023165211 +0000" channel="HBO.sv">
     <category>Acción</category>
     <title>Van Helsing, cazador de monstruos</title>
   </programme>
@@ -4939,12 +4931,9 @@
     <category>Acción</category>
     <title>Escape bajo fuego</title>
   </programme>
-  <programme start="20261023150800 +0000" stop="20261023164458 +0000" channel="HBO2.sv">
+  <programme start="20261023150800 +0000" stop="20261023165211 +0000" channel="HBO2.sv">
     <category>C.Ficción</category>
     <title>Duna - Parte dos</title>
-  </programme>
-  <programme start="20261022025000 +0000" stop="20261022044000 +0000" channel="HBOPop.cr">
-    <title>Super cool</title>
   </programme>
   <programme start="20261022044000 +0000" stop="20261022063000 +0000" channel="HBOPop.cr">
     <title>¿Quién *&amp;$%! son los Miller?</title>
@@ -5015,7 +5004,7 @@
   <programme start="20261023135000 +0000" stop="20261023150000 +0000" channel="HBOPop.cr">
     <title>Josh Johnson Sinfonía</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="HBOPop.cr">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="HBOPop.cr">
     <category>Acción</category>
     <title>Blue Beetle</title>
   </programme>
@@ -5103,7 +5092,7 @@
     <category>Aventura</category>
     <title>Harry Potter y las reliquias de la muerte - Parte 2</title>
   </programme>
-  <programme start="20261023162700 +0000" stop="20261023164458 +0000" channel="HBOFamily.gt">
+  <programme start="20261023162700 +0000" stop="20261023165211 +0000" channel="HBOFamily.gt">
     <category>Animación</category>
     <title>El espantatiburones</title>
   </programme>
@@ -5178,7 +5167,7 @@
     <category>Aventura</category>
     <title>El Rey Escorpión</title>
   </programme>
-  <programme start="20261023163900 +0000" stop="20261023164458 +0000" channel="HBOXtreme.gt">
+  <programme start="20261023163900 +0000" stop="20261023165211 +0000" channel="HBOXtreme.gt">
     <category>Aventura</category>
     <title>La momia regresa</title>
   </programme>
@@ -5263,7 +5252,7 @@
   <programme start="20261023150000 +0000" stop="20261023153000 +0000" channel="HBOMundi.sv">
     <title>El estado de juego</title>
   </programme>
-  <programme start="20261023153000 +0000" stop="20261023164458 +0000" channel="HBOMundi.sv">
+  <programme start="20261023153000 +0000" stop="20261023165211 +0000" channel="HBOMundi.sv">
     <category>Drama</category>
     <title>El juez</title>
   </programme>
@@ -5361,7 +5350,7 @@
   <programme start="20261023150000 +0000" stop="20261023160100 +0000" channel="HBOSignature.gt">
     <title>Jerrod Carmichael: 8</title>
   </programme>
-  <programme start="20261023160100 +0000" stop="20261023164458 +0000" channel="HBOSignature.gt">
+  <programme start="20261023160100 +0000" stop="20261023165211 +0000" channel="HBOSignature.gt">
     <category>Documental</category>
     <title>El pantano</title>
   </programme>
@@ -5528,7 +5517,7 @@
   <programme start="20261023152000 +0000" stop="20261023161000 +0000" channel="WarnerChannel.sv">
     <title>Cobra Kai</title>
   </programme>
-  <programme start="20261023161000 +0000" stop="20261023164458 +0000" channel="WarnerChannel.sv">
+  <programme start="20261023161000 +0000" stop="20261023165211 +0000" channel="WarnerChannel.sv">
     <title>All American</title>
   </programme>
   <programme start="20261022041500 +0000" stop="20261022062000 +0000" channel="Cinecanal.sv">
@@ -5595,7 +5584,7 @@
     <category>Drama</category>
     <title>Policía: turno nocturno</title>
   </programme>
-  <programme start="20261023150700 +0000" stop="20261023164458 +0000" channel="Cinecanal.sv">
+  <programme start="20261023150700 +0000" stop="20261023165211 +0000" channel="Cinecanal.sv">
     <category>Acción</category>
     <title>Terremoto 8.5</title>
   </programme>
@@ -5663,7 +5652,7 @@
     <category>C.Ficción</category>
     <title>Ex-Máquina</title>
   </programme>
-  <programme start="20261023153400 +0000" stop="20261023164458 +0000" channel="Cinemax.sv">
+  <programme start="20261023153400 +0000" stop="20261023165211 +0000" channel="Cinemax.sv">
     <category>Acción</category>
     <title>El ultimátum de Bourne</title>
   </programme>
@@ -5774,7 +5763,7 @@
     <category>Drama</category>
     <title>Día de patriotas</title>
   </programme>
-  <programme start="20261023155100 +0000" stop="20261023164458 +0000" channel="Golden.sv">
+  <programme start="20261023155100 +0000" stop="20261023165211 +0000" channel="Golden.sv">
     <category>Drama</category>
     <title>Déjame estar contigo</title>
   </programme>
@@ -5834,7 +5823,7 @@
   <programme start="20261023134500 +0000" stop="20261023153000 +0000" channel="GoldenEdge.cr">
     <title>Mi hijo y yo</title>
   </programme>
-  <programme start="20261023153000 +0000" stop="20261023164458 +0000" channel="GoldenEdge.cr">
+  <programme start="20261023153000 +0000" stop="20261023165211 +0000" channel="GoldenEdge.cr">
     <title>Después de la muerte</title>
   </programme>
   <programme start="20261022031000 +0000" stop="20261022045500 +0000" channel="Multipremier.sv">
@@ -5922,7 +5911,7 @@
     <category>Drama</category>
     <title>El camino a la libertad</title>
   </programme>
-  <programme start="20261023162000 +0000" stop="20261023164458 +0000" channel="Multipremier.sv">
+  <programme start="20261023162000 +0000" stop="20261023165211 +0000" channel="Multipremier.sv">
     <category>Comedia</category>
     <title>Una vida casi normal</title>
   </programme>
@@ -5998,7 +5987,7 @@
     <category>Crimen</category>
     <title>El frío en los huesos</title>
   </programme>
-  <programme start="20261023155300 +0000" stop="20261023164458 +0000" channel="Space.sv">
+  <programme start="20261023155300 +0000" stop="20261023165211 +0000" channel="Space.sv">
     <category>Terror</category>
     <title>Acechados por el mal</title>
   </programme>
@@ -6081,7 +6070,7 @@
     <category>Drama</category>
     <title>Animales americanos</title>
   </programme>
-  <programme start="20261023161500 +0000" stop="20261023164458 +0000" channel="StarChannel.sv">
+  <programme start="20261023161500 +0000" stop="20261023165211 +0000" channel="StarChannel.sv">
     <title>Castle</title>
   </programme>
   <programme start="20261022051100 +0000" stop="20261022070000 +0000" channel="FX.sv">
@@ -6162,7 +6151,7 @@
   <programme start="20261023151100 +0000" stop="20261023160000 +0000" channel="FX.sv">
     <title>The Amazing Race</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="FX.sv">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="FX.sv">
     <title>The Amazing Race</title>
   </programme>
   <programme start="20261022034200 +0000" stop="20261022053200 +0000" channel="DePelicula.sv">
@@ -6249,7 +6238,7 @@
     <category>Acción</category>
     <title>Marcados por el destino</title>
   </programme>
-  <programme start="20261023161300 +0000" stop="20261023164458 +0000" channel="DePelicula.sv">
+  <programme start="20261023161300 +0000" stop="20261023165211 +0000" channel="DePelicula.sv">
     <category>Comedia</category>
     <title>Sinvergüenza, pero honrado</title>
   </programme>
@@ -6347,7 +6336,7 @@
     <category>Drama</category>
     <title>La ciudad y los perros</title>
   </programme>
-  <programme start="20261023152000 +0000" stop="20261023164458 +0000" channel="CineMexicano.gt">
+  <programme start="20261023152000 +0000" stop="20261023165211 +0000" channel="CineMexicano.gt">
     <category>Comedia</category>
     <title>¿Cómo matar a un esposo muerto?</title>
   </programme>
@@ -6422,7 +6411,7 @@
   <programme start="20261023150000 +0000" stop="20261023162500 +0000" channel="TCM.sv">
     <title>Hollywood One on One</title>
   </programme>
-  <programme start="20261023162500 +0000" stop="20261023164458 +0000" channel="TCM.sv">
+  <programme start="20261023162500 +0000" stop="20261023165211 +0000" channel="TCM.sv">
     <category>Drama</category>
     <title>Una Venus en visón</title>
   </programme>
@@ -6519,7 +6508,7 @@
   <programme start="20261023153000 +0000" stop="20261023160500 +0000" channel="Univision.cr">
     <title>La cocina en los pueblos mágicos</title>
   </programme>
-  <programme start="20261023160500 +0000" stop="20261023164458 +0000" channel="Univision.cr">
+  <programme start="20261023160500 +0000" stop="20261023165211 +0000" channel="Univision.cr">
     <title>Esta historia me suena</title>
   </programme>
   <programme start="20261022031000 +0000" stop="20261022040500 +0000" channel="TelemundoInternacional.ec">
@@ -6638,7 +6627,7 @@
     <category>Drama</category>
     <title>Robos y Apuestas</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="TelemundoInternacional.ec">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="TelemundoInternacional.ec">
     <title>El regalo de Santa; Experimento en clases</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022050000 +0000" channel="AzCorazon.sv">
@@ -6803,7 +6792,7 @@
   <programme start="20261023140000 +0000" stop="20261023150000 +0000" channel="AzCorazon.sv">
     <title>Rutas de la vida</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="AzCorazon.sv">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="AzCorazon.sv">
     <title>Cosas de la vida</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="CaracolInternacional.gt">
@@ -6947,7 +6936,7 @@
   <programme start="20261023161500 +0000" stop="20261023163000 +0000" channel="CaracolInternacional.gt">
     <title>Día a día</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="CaracolInternacional.gt">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="CaracolInternacional.gt">
     <title>Noticias 5:30 A.M. Caracol</title>
   </programme>
   <programme start="20261022040000 +0000" stop="20261022053500 +0000" channel="DHE.gt">
@@ -7034,7 +7023,7 @@
     <category>Acción</category>
     <title>Escape a la libertad</title>
   </programme>
-  <programme start="20261023152500 +0000" stop="20261023164458 +0000" channel="DHE.gt">
+  <programme start="20261023152500 +0000" stop="20261023165211 +0000" channel="DHE.gt">
     <category>Acción</category>
     <title>El francotirador: La última masacre</title>
   </programme>
@@ -7144,7 +7133,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="UniCable.mx">
     <title>Esta historia me suena</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="UniCable.mx">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="UniCable.mx">
     <title>Secretos al desnudo</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="CanalClaro.sv">
@@ -7251,7 +7240,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="CanalClaro.sv">
     <title>La verdad</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="CanalClaro.sv">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="CanalClaro.sv">
     <title>La verdad</title>
   </programme>
   <programme start="20261022042500 +0000" stop="20261022061500 +0000" channel="AMC.sv">
@@ -7338,7 +7327,7 @@
     <category>Acción</category>
     <title>Hombre en llamas</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="AMC.sv">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="AMC.sv">
     <category>Acción</category>
     <title>Sicario</title>
   </programme>
@@ -7468,11 +7457,8 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="AXN.sv">
     <title>9-1-1</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="AXN.sv">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="AXN.sv">
     <title>CSI</title>
-  </programme>
-  <programme start="20261022024500 +0000" stop="20261022033500 +0000" channel="TVE.sv">
-    <title>Valle salvaje</title>
   </programme>
   <programme start="20261022033500 +0000" stop="20261022043000 +0000" channel="TVE.sv">
     <title>La promesa</title>
@@ -7579,7 +7565,7 @@
   <programme start="20261023115000 +0000" stop="20261023143500 +0000" channel="TVE.sv">
     <title>La hora de la 1</title>
   </programme>
-  <programme start="20261023143500 +0000" stop="20261023164458 +0000" channel="TVE.sv">
+  <programme start="20261023143500 +0000" stop="20261023165211 +0000" channel="TVE.sv">
     <title>#Mañaneros</title>
   </programme>
   <programme start="20261022080000 +0000" stop="20261022143000 +0000" channel="DistritoComedia.gt">
@@ -7609,7 +7595,7 @@
   <programme start="20261023143000 +0000" stop="20261023162500 +0000" channel="DistritoComedia.gt">
     <title>XH Derbez</title>
   </programme>
-  <programme start="20261023162500 +0000" stop="20261023164458 +0000" channel="DistritoComedia.gt">
+  <programme start="20261023162500 +0000" stop="20261023165211 +0000" channel="DistritoComedia.gt">
     <title>La hora pico</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022032000 +0000" channel="ComedyCentral.pa">
@@ -7897,7 +7883,7 @@
   <programme start="20261023162000 +0000" stop="20261023164000 +0000" channel="ComedyCentral.pa">
     <title>Beavis y Butt-Head</title>
   </programme>
-  <programme start="20261023164000 +0000" stop="20261023164458 +0000" channel="ComedyCentral.pa">
+  <programme start="20261023164000 +0000" stop="20261023165211 +0000" channel="ComedyCentral.pa">
     <title>Beavis y Butt-Head</title>
   </programme>
   <programme start="20261022030500 +0000" stop="20261022035500 +0000" channel="TLNovelas.sv">
@@ -8008,7 +7994,7 @@
   <programme start="20261023155000 +0000" stop="20261023163500 +0000" channel="TLNovelas.sv">
     <title>Para volver a amar</title>
   </programme>
-  <programme start="20261023163500 +0000" stop="20261023164458 +0000" channel="TLNovelas.sv">
+  <programme start="20261023163500 +0000" stop="20261023165211 +0000" channel="TLNovelas.sv">
     <title>El privilegio de amar</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="Pasiones.gt">
@@ -8122,7 +8108,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="Pasiones.gt">
     <title>Garota do momento</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="Pasiones.gt">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="Pasiones.gt">
     <title>Tres hermanas</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="RCNNovelas.pa">
@@ -8335,11 +8321,8 @@
   <programme start="20261023154100 +0000" stop="20261023162600 +0000" channel="TNTNovelas.cr">
     <title>El Chico De Oro</title>
   </programme>
-  <programme start="20261023162600 +0000" stop="20261023164458 +0000" channel="TNTNovelas.cr">
+  <programme start="20261023162600 +0000" stop="20261023165211 +0000" channel="TNTNovelas.cr">
     <title>Quiéreme Siempre</title>
-  </programme>
-  <programme start="20261022024700 +0000" stop="20261022035600 +0000" channel="TNTSeries.sv">
-    <title>CSI</title>
   </programme>
   <programme start="20261022035600 +0000" stop="20261022044200 +0000" channel="TNTSeries.sv">
     <title>CSI</title>
@@ -8479,7 +8462,7 @@
   <programme start="20261023154600 +0000" stop="20261023163100 +0000" channel="TNTSeries.sv">
     <title>La ley y el orden: UVE</title>
   </programme>
-  <programme start="20261023163100 +0000" stop="20261023164458 +0000" channel="TNTSeries.sv">
+  <programme start="20261023163100 +0000" stop="20261023165211 +0000" channel="TNTSeries.sv">
     <title>La ley y el orden: UVE</title>
   </programme>
   <programme start="20261022025900 +0000" stop="20261022035300 +0000" channel="BBCSeries.es">
@@ -8638,7 +8621,7 @@
     <category>Series</category>
     <title>Los mosqueteros</title>
   </programme>
-  <programme start="20261023160500 +0000" stop="20261023164458 +0000" channel="BBCSeries.es">
+  <programme start="20261023160500 +0000" stop="20261023165211 +0000" channel="BBCSeries.es">
     <category>Series</category>
     <title>Los mosqueteros</title>
   </programme>
@@ -8711,7 +8694,7 @@
     <category>Comedia</category>
     <title>Amar, beber y cantar</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="EuropaEuropa.mx">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="EuropaEuropa.mx">
     <title>El comisario Montalbano</title>
   </programme>
   <programme start="20261022031600 +0000" stop="20261022045000 +0000" channel="Lifetime.sv">
@@ -8815,7 +8798,7 @@
   <programme start="20261023153400 +0000" stop="20261023162000 +0000" channel="Lifetime.sv">
     <title>Amores que engañan</title>
   </programme>
-  <programme start="20261023162000 +0000" stop="20261023164458 +0000" channel="Lifetime.sv">
+  <programme start="20261023162000 +0000" stop="20261023165211 +0000" channel="Lifetime.sv">
     <title>Amores que engañan</title>
   </programme>
   <programme start="20261022033000 +0000" stop="20261022043000 +0000" channel="Citytv.gt">
@@ -8911,7 +8894,7 @@
   <programme start="20261023153000 +0000" stop="20261023163000 +0000" channel="Citytv.gt">
     <title>Citynoticias de las 8</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="Citytv.gt">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="Citytv.gt">
     <title>Arriba Bogotá</title>
   </programme>
   <programme start="20261022032000 +0000" stop="20261022034000 +0000" channel="MTV.sv">
@@ -9106,7 +9089,7 @@
   <programme start="20261023155000 +0000" stop="20261023162500 +0000" channel="MTV.sv">
     <title>Ink Master</title>
   </programme>
-  <programme start="20261023162500 +0000" stop="20261023164458 +0000" channel="MTV.sv">
+  <programme start="20261023162500 +0000" stop="20261023165211 +0000" channel="MTV.sv">
     <title>La venganza de los ex</title>
   </programme>
   <programme start="20261022060000 +0000" stop="20261022120000 +0000" channel="Telemax.ar">
@@ -9160,7 +9143,7 @@
   <programme start="20261023140000 +0000" stop="20261023160000 +0000" channel="Telemax.ar">
     <title>Info federal</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="Telemax.ar">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="Telemax.ar">
     <title>Entre mate y mate</title>
   </programme>
   <programme start="20261022032000 +0000" stop="20261022041700 +0000" channel="A&amp;E.sv">
@@ -9304,7 +9287,7 @@
   <programme start="20261023153000 +0000" stop="20261023161500 +0000" channel="A&amp;E.sv">
     <title>Las primeras 48 horas</title>
   </programme>
-  <programme start="20261023161500 +0000" stop="20261023164458 +0000" channel="A&amp;E.sv">
+  <programme start="20261023161500 +0000" stop="20261023165211 +0000" channel="A&amp;E.sv">
     <title>Las primeras 48 horas</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022044000 +0000" channel="DiscoveryChannel.sv">
@@ -9418,7 +9401,7 @@
   <programme start="20261023144000 +0000" stop="20261023162000 +0000" channel="DiscoveryChannel.sv">
     <title>Naked and Afraid: Shipwrecked</title>
   </programme>
-  <programme start="20261023162000 +0000" stop="20261023164458 +0000" channel="DiscoveryChannel.sv">
+  <programme start="20261023162000 +0000" stop="20261023165211 +0000" channel="DiscoveryChannel.sv">
     <title>Supervivencia al desnudo</title>
   </programme>
   <programme start="20261022025600 +0000" stop="20261022034200 +0000" channel="DiscoveryTurbo.cr">
@@ -9562,7 +9545,7 @@
   <programme start="20261023152600 +0000" stop="20261023161300 +0000" channel="DiscoveryTurbo.cr">
     <title>Overhaulin'</title>
   </programme>
-  <programme start="20261023161300 +0000" stop="20261023164458 +0000" channel="DiscoveryTurbo.cr">
+  <programme start="20261023161300 +0000" stop="20261023165211 +0000" channel="DiscoveryTurbo.cr">
     <title>Al estilo Kindig: El entrenamiento</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022032400 +0000" channel="DiscoveryWorld.sv">
@@ -9796,7 +9779,7 @@
   <programme start="20261023161200 +0000" stop="20261023163600 +0000" channel="DiscoveryWorld.sv">
     <title>El poder de la comida</title>
   </programme>
-  <programme start="20261023163600 +0000" stop="20261023164458 +0000" channel="DiscoveryWorld.sv">
+  <programme start="20261023163600 +0000" stop="20261023165211 +0000" channel="DiscoveryWorld.sv">
     <title>Mi casa en Hawái</title>
   </programme>
   <programme start="20261022031200 +0000" stop="20261022040000 +0000" channel="DiscoveryTheater.pa">
@@ -10027,7 +10010,7 @@
   <programme start="20261023154900 +0000" stop="20261023163500 +0000" channel="DiscoveryHome&amp;Health.sv">
     <title>Casas de campo</title>
   </programme>
-  <programme start="20261023163500 +0000" stop="20261023164458 +0000" channel="DiscoveryHome&amp;Health.sv">
+  <programme start="20261023163500 +0000" stop="20261023165211 +0000" channel="DiscoveryHome&amp;Health.sv">
     <title>Cake Boss</title>
   </programme>
   <programme start="20261022032400 +0000" stop="20261022041200 +0000" channel="DiscoveryScience.cr">
@@ -10168,11 +10151,8 @@
   <programme start="20261023152400 +0000" stop="20261023161200 +0000" channel="DiscoveryScience.cr">
     <title>Supergenios</title>
   </programme>
-  <programme start="20261023161200 +0000" stop="20261023164458 +0000" channel="DiscoveryScience.cr">
+  <programme start="20261023161200 +0000" stop="20261023165211 +0000" channel="DiscoveryScience.cr">
     <title>Productores de armas</title>
-  </programme>
-  <programme start="20261022024800 +0000" stop="20261022033600 +0000" channel="AnimalPlanet.sv">
-    <title>Expedición Mungo</title>
   </programme>
   <programme start="20261022033600 +0000" stop="20261022042400 +0000" channel="AnimalPlanet.sv">
     <title>Pesca mortal</title>
@@ -10312,7 +10292,7 @@
   <programme start="20261023153600 +0000" stop="20261023162400 +0000" channel="AnimalPlanet.sv">
     <title>Piscinas increíbles</title>
   </programme>
-  <programme start="20261023162400 +0000" stop="20261023164458 +0000" channel="AnimalPlanet.sv">
+  <programme start="20261023162400 +0000" stop="20261023165211 +0000" channel="AnimalPlanet.sv">
     <title>Pesca mortal</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022035000 +0000" channel="FilmAndArts.cr">
@@ -10408,11 +10388,8 @@
   <programme start="20261023151000 +0000" stop="20261023160500 +0000" channel="FilmAndArts.cr">
     <title>Philharmonia</title>
   </programme>
-  <programme start="20261023160500 +0000" stop="20261023164458 +0000" channel="FilmAndArts.cr">
+  <programme start="20261023160500 +0000" stop="20261023165211 +0000" channel="FilmAndArts.cr">
     <title>Tim Burton, un monstruo de cin</title>
-  </programme>
-  <programme start="20261022024500 +0000" stop="20261022033400 +0000" channel="TLC.sv">
-    <title>Mi gran boda gitana</title>
   </programme>
   <programme start="20261022033400 +0000" stop="20261022042300 +0000" channel="TLC.sv">
     <title>Todo en 90 días: casados en el extranjero</title>
@@ -10543,11 +10520,8 @@
   <programme start="20261023153000 +0000" stop="20261023161500 +0000" channel="TLC.sv">
     <title>Regreso al mundo Amish</title>
   </programme>
-  <programme start="20261023161500 +0000" stop="20261023164458 +0000" channel="TLC.sv">
+  <programme start="20261023161500 +0000" stop="20261023165211 +0000" channel="TLC.sv">
     <title>Regreso al mundo Amish</title>
-  </programme>
-  <programme start="20261022024700 +0000" stop="20261022025300 +0000" channel="BabyTV.cr">
-    <title>Choopies</title>
   </programme>
   <programme start="20261022025300 +0000" stop="20261022025900 +0000" channel="BabyTV.cr">
     <title>Choopies</title>
@@ -11608,9 +11582,6 @@
   <programme start="20261023055400 +0000" stop="20261023060000 +0000" channel="BabyTV.cr">
     <title>Los Cuddlies</title>
   </programme>
-  <programme start="20261022024600 +0000" stop="20261022025300 +0000" channel="Cartoonito.sv">
-    <title>Grizzy y los Lemmings</title>
-  </programme>
   <programme start="20261022025300 +0000" stop="20261022030100 +0000" channel="Cartoonito.sv">
     <title>Grizzy y los Lemmings</title>
   </programme>
@@ -12418,8 +12389,11 @@
   <programme start="20261023163100 +0000" stop="20261023163800 +0000" channel="Cartoonito.sv">
     <title>Mundo Bita: ¡Imagínate!</title>
   </programme>
-  <programme start="20261023163800 +0000" stop="20261023164458 +0000" channel="Cartoonito.sv">
+  <programme start="20261023163800 +0000" stop="20261023164500 +0000" channel="Cartoonito.sv">
     <title>Mundo Bita: ¡Imagínate!</title>
+  </programme>
+  <programme start="20261023164500 +0000" stop="20261023165211 +0000" channel="Cartoonito.sv">
+    <title>Creciendo con la Gallina Pintadita</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022033000 +0000" channel="DisneyJr.pa">
     <title>Supergatitos</title>
@@ -12610,11 +12584,8 @@
     <category>Animación</category>
     <title>PJ Masks: Héroes en Pijamas</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="DisneyJr.pa">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="DisneyJr.pa">
     <title>Supergatitos</title>
-  </programme>
-  <programme start="20261022025100 +0000" stop="20261022031400 +0000" channel="DiscoveryKids.sv">
-    <title>Magia de sirenas</title>
   </programme>
   <programme start="20261022031400 +0000" stop="20261022032600 +0000" channel="DiscoveryKids.sv">
     <title>Bubble's Hotel</title>
@@ -13051,11 +13022,8 @@
   <programme start="20261023161400 +0000" stop="20261023163700 +0000" channel="DiscoveryKids.sv">
     <title>Peppa Pig</title>
   </programme>
-  <programme start="20261023163700 +0000" stop="20261023164458 +0000" channel="DiscoveryKids.sv">
+  <programme start="20261023163700 +0000" stop="20261023165211 +0000" channel="DiscoveryKids.sv">
     <title>Peppa Pig</title>
-  </programme>
-  <programme start="20261022025000 +0000" stop="20261022030000 +0000" channel="CartoonNetwork.sv">
-    <title>Submarine Jim</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022031500 +0000" channel="CartoonNetwork.sv">
     <title>Adventure Time: Side Quests</title>
@@ -13633,7 +13601,10 @@
   <programme start="20261023162400 +0000" stop="20261023163600 +0000" channel="CartoonNetwork.sv">
     <title>Los Jóvenes Titanes en acción</title>
   </programme>
-  <programme start="20261023163600 +0000" stop="20261023164458 +0000" channel="CartoonNetwork.sv">
+  <programme start="20261023163600 +0000" stop="20261023164800 +0000" channel="CartoonNetwork.sv">
+    <title>Los Jóvenes Titanes en acción</title>
+  </programme>
+  <programme start="20261023164800 +0000" stop="20261023165211 +0000" channel="CartoonNetwork.sv">
     <title>Los Jóvenes Titanes en acción</title>
   </programme>
   <programme start="20261022025500 +0000" stop="20261022031500 +0000" channel="Nickelodeon.pa">
@@ -13981,11 +13952,11 @@
   <programme start="20261023160000 +0000" stop="20261023162500 +0000" channel="Nickelodeon.pa">
     <title>SpongeBob SquarePants</title>
   </programme>
-  <programme start="20261023162500 +0000" stop="20261023164458 +0000" channel="Nickelodeon.pa">
+  <programme start="20261023162500 +0000" stop="20261023164500 +0000" channel="Nickelodeon.pa">
     <title>SpongeBob SquarePants</title>
   </programme>
-  <programme start="20261022025000 +0000" stop="20261022031500 +0000" channel="NickJr.gt">
-    <title>Santiago de los mares</title>
+  <programme start="20261023164500 +0000" stop="20261023165211 +0000" channel="Nickelodeon.pa">
+    <title>SpongeBob SquarePants</title>
   </programme>
   <programme start="20261022031500 +0000" stop="20261022034000 +0000" channel="NickJr.gt">
     <title>Las pistas de Blue y tú</title>
@@ -14302,8 +14273,11 @@
   <programme start="20261023160500 +0000" stop="20261023162500 +0000" channel="NickJr.gt">
     <title>Las pistas de Blue y tú</title>
   </programme>
-  <programme start="20261023162500 +0000" stop="20261023164458 +0000" channel="NickJr.gt">
+  <programme start="20261023162500 +0000" stop="20261023165000 +0000" channel="NickJr.gt">
     <title>Mr. Crocodile</title>
+  </programme>
+  <programme start="20261023165000 +0000" stop="20261023165211 +0000" channel="NickJr.gt">
+    <title>Barbapapá</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022033000 +0000" channel="DisneyChannel.sv">
     <title>Los Green en la gran ciudad</title>
@@ -14557,7 +14531,7 @@
   <programme start="20261023161500 +0000" stop="20261023163000 +0000" channel="DisneyChannel.sv">
     <title>Cortos Mickey Mouse</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="DisneyChannel.sv">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="DisneyChannel.sv">
     <title>Phineas y Ferb</title>
   </programme>
   <programme start="20261022025300 +0000" stop="20261022030500 +0000" channel="Tooncast.gt">
@@ -15115,7 +15089,10 @@
   <programme start="20261023162300 +0000" stop="20261023163600 +0000" channel="Tooncast.gt">
     <title>El campamento de Lazlo</title>
   </programme>
-  <programme start="20261023163600 +0000" stop="20261023164458 +0000" channel="Tooncast.gt">
+  <programme start="20261023163600 +0000" stop="20261023164700 +0000" channel="Tooncast.gt">
+    <title>El campamento de Lazlo</title>
+  </programme>
+  <programme start="20261023164700 +0000" stop="20261023165211 +0000" channel="Tooncast.gt">
     <title>El campamento de Lazlo</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="Musictop.ar">
@@ -15229,11 +15206,8 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="Musictop.ar">
     <title>MusicTop</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="Musictop.ar">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="Musictop.ar">
     <title>MusicTop</title>
-  </programme>
-  <programme start="20261022024500 +0000" stop="20261022034000 +0000" channel="TelehitM&amp;#xFA;sica.cr">
-    <title>Telehitazos</title>
   </programme>
   <programme start="20261022034000 +0000" stop="20261022043500 +0000" channel="TelehitM&amp;#xFA;sica.cr">
     <title>Musicología</title>
@@ -15364,7 +15338,7 @@
   <programme start="20261023154000 +0000" stop="20261023163500 +0000" channel="TelehitM&amp;#xFA;sica.cr">
     <title>Super Hits</title>
   </programme>
-  <programme start="20261023163500 +0000" stop="20261023164458 +0000" channel="TelehitM&amp;#xFA;sica.cr">
+  <programme start="20261023163500 +0000" stop="20261023165211 +0000" channel="TelehitM&amp;#xFA;sica.cr">
     <title>Suena el Dembow</title>
   </programme>
   <programme start="20261022100000 +0000" stop="20261022180000 +0000" channel="HTV.sv">
@@ -15376,7 +15350,7 @@
   <programme start="20261022230000 +0000" stop="20261023100000 +0000" channel="HTV.sv">
     <title>HTV</title>
   </programme>
-  <programme start="20261023100000 +0000" stop="20261023164458 +0000" channel="HTV.sv">
+  <programme start="20261023100000 +0000" stop="20261023165211 +0000" channel="HTV.sv">
     <title>HTV</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="ExaTV.cr">
@@ -15490,7 +15464,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="ExaTV.cr">
     <title>Videos</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="ExaTV.cr">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="ExaTV.cr">
     <title>Videos</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="RumbaTV.co">
@@ -15604,7 +15578,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="RumbaTV.co">
     <title>Programación de videos musicales</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="RumbaTV.co">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="RumbaTV.co">
     <title>Programación de videos musicales</title>
   </programme>
   <programme start="20261022034900 +0000" stop="20261022063500 +0000" channel="SolMusica.es">
@@ -15723,7 +15697,7 @@
     <category>Entretenimiento</category>
     <title>Malas lenguas</title>
   </programme>
-  <programme start="20261023162500 +0000" stop="20261023164458 +0000" channel="SolMusica.es">
+  <programme start="20261023162500 +0000" stop="20261023165211 +0000" channel="SolMusica.es">
     <category>Entretenimiento</category>
     <title>Aquí la Tierra</title>
   </programme>
@@ -15833,7 +15807,7 @@
     <category>Deporte</category>
     <title>TNA Wrestling Impact</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="CLAROSPORTS.uy">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="CLAROSPORTS.uy">
     <title>Noticias Claro</title>
   </programme>
   <programme start="20261022060000 +0000" stop="20261022100000 +0000" channel="TUDN.cr">
@@ -15860,7 +15834,7 @@
   <programme start="20261023100000 +0000" stop="20261023140000 +0000" channel="TUDN.cr">
     <title>TUDN</title>
   </programme>
-  <programme start="20261023140000 +0000" stop="20261023164458 +0000" channel="TUDN.cr">
+  <programme start="20261023140000 +0000" stop="20261023165211 +0000" channel="TUDN.cr">
     <title>TUDN</title>
   </programme>
   <programme start="20261022040000 +0000" stop="20261022080000 +0000" channel="RealMadridTV.es">
@@ -15899,7 +15873,7 @@
     <category>Deportes</category>
     <title>Real Madrid TV</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="RealMadridTV.es">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="RealMadridTV.es">
     <category>Deportes</category>
     <title>Real Madrid TV</title>
   </programme>
@@ -15990,7 +15964,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="TyCSports.ar">
     <title>Sportia</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="TyCSports.ar">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="TyCSports.ar">
     <title>Superfútbol</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022050000 +0000" channel="TNTSports.ar">
@@ -16062,7 +16036,7 @@
   <programme start="20261023140000 +0000" stop="20261023160000 +0000" channel="TNTSports.ar">
     <title>Fútbol Argentino Copa de la Liga Profesional</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="TNTSports.ar">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="TNTSports.ar">
     <title>TNT Fútbol</title>
   </programme>
   <programme start="20261022033000 +0000" stop="20261022052000 +0000" channel="DIRECTVSports.ec">
@@ -16171,13 +16145,240 @@
     <category>Talk</category>
     <title>DSPORTS Noticias Nite</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="DIRECTVSports.ec">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="DIRECTVSports.ec">
     <category>Soccer</category>
     <title>Montevideo City Torque vs. Atlético Mineiro</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="DIRECTVSports.ec">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="DIRECTVSports.ec">
     <category>Soccer</category>
     <title>Montevideo City Torque vs. Atlético Mineiro</title>
+  </programme>
+  <programme start="20261022030000 +0000" stop="20261022050000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Ghana Sub-17 vs. Brasil Sub-17</title>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261022053000 +0000" channel="DIRECTVSports2.ec">
+    <category>Talk</category>
+    <title>Manu Ginóbili</title>
+  </programme>
+  <programme start="20261022053000 +0000" stop="20261022073000 +0000" channel="DIRECTVSports2.ec">
+    <category>Basketball</category>
+    <title>Instituto vs. Lanús</title>
+  </programme>
+  <programme start="20261022073000 +0000" stop="20261022083000 +0000" channel="DIRECTVSports2.ec">
+    <category>Basketball</category>
+    <title>DSPORTS Básquet</title>
+  </programme>
+  <programme start="20261022083000 +0000" stop="20261022103000 +0000" channel="DIRECTVSports2.ec">
+    <category>Basketball</category>
+    <title>Instituto vs. Lanús</title>
+  </programme>
+  <programme start="20261022103000 +0000" stop="20261022110000 +0000" channel="DIRECTVSports2.ec">
+    <title>Todo en 30</title>
+  </programme>
+  <programme start="20261022110000 +0000" stop="20261022113000 +0000" channel="DIRECTVSports2.ec">
+    <category>Talk</category>
+    <title>Messi en la selección argentina</title>
+  </programme>
+  <programme start="20261022113000 +0000" stop="20261022120000 +0000" channel="DIRECTVSports2.ec">
+    <category>Documentary</category>
+    <title>Palermo: Ocaso y Rendición</title>
+  </programme>
+  <programme start="20261022120000 +0000" stop="20261022140000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Montevideo City Torque vs. Atlético Mineiro</title>
+  </programme>
+  <programme start="20261022140000 +0000" stop="20261022160000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Vasco da Gama vs. Boca Juniors</title>
+  </programme>
+  <programme start="20261022160000 +0000" stop="20261022170000 +0000" channel="DIRECTVSports2.ec">
+    <category>Basketball</category>
+    <title>DSPORTS Básquet</title>
+  </programme>
+  <programme start="20261022170000 +0000" stop="20261022173000 +0000" channel="DIRECTVSports2.ec">
+    <title>Todo en 30</title>
+  </programme>
+  <programme start="20261022173000 +0000" stop="20261022180000 +0000" channel="DIRECTVSports2.ec">
+    <category>Documentary</category>
+    <title>Palermo: Ocaso y Rendición</title>
+  </programme>
+  <programme start="20261022180000 +0000" stop="20261022195000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Real Madrid vs. Barcelona</title>
+  </programme>
+  <programme start="20261022195000 +0000" stop="20261022220000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>España Sub-17 vs. Australia Sub-17</title>
+  </programme>
+  <programme start="20261022220000 +0000" stop="20261022223000 +0000" channel="DIRECTVSports2.ec">
+    <title>Todo en 30</title>
+  </programme>
+  <programme start="20261022223000 +0000" stop="20261022230000 +0000" channel="DIRECTVSports2.ec">
+    <category>Documentary</category>
+    <title>Los goles de Cristiano Ronaldo al Atlético de Madrid</title>
+  </programme>
+  <programme start="20261022230000 +0000" stop="20261023010000 +0000" channel="DIRECTVSports2.ec">
+    <category>Basketball</category>
+    <title>Maccabi Rapyd Tel Aviv vs. Real Madrid</title>
+  </programme>
+  <programme start="20261023010000 +0000" stop="20261023030000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Montevideo City Torque vs. Atlético Mineiro</title>
+  </programme>
+  <programme start="20261023030000 +0000" stop="20261023050000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Chile Sub-17 vs. México Sub-17</title>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261023053000 +0000" channel="DIRECTVSports2.ec">
+    <title>Todo en 30</title>
+  </programme>
+  <programme start="20261023053000 +0000" stop="20261023060000 +0000" channel="DIRECTVSports2.ec">
+    <category>Talk</category>
+    <title>Juan Sebastián Verón</title>
+  </programme>
+  <programme start="20261023060000 +0000" stop="20261023063000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>LaLiga Show</title>
+  </programme>
+  <programme start="20261023063000 +0000" stop="20261023083000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>2015-2016: Real Madrid vs. Barcelona</title>
+  </programme>
+  <programme start="20261023083000 +0000" stop="20261023090000 +0000" channel="DIRECTVSports2.ec">
+    <category>Talk</category>
+    <title>Juan Sebastián Verón</title>
+  </programme>
+  <programme start="20261023090000 +0000" stop="20261023093000 +0000" channel="DIRECTVSports2.ec">
+    <title>Todo en 30</title>
+  </programme>
+  <programme start="20261023093000 +0000" stop="20261023100000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>LaLiga Show</title>
+  </programme>
+  <programme start="20261023100000 +0000" stop="20261023113000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Fútbol Total</title>
+  </programme>
+  <programme start="20261023113000 +0000" stop="20261023120000 +0000" channel="DIRECTVSports2.ec">
+    <category>Documentary</category>
+    <title>Derby español: Me verás campeón</title>
+  </programme>
+  <programme start="20261023120000 +0000" stop="20261023140000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Vasco da Gama vs. Boca Juniors</title>
+  </programme>
+  <programme start="20261023140000 +0000" stop="20261023160000 +0000" channel="DIRECTVSports2.ec">
+    <category>Soccer</category>
+    <title>Montevideo City Torque vs. Atlético Mineiro</title>
+  </programme>
+  <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="DIRECTVSports2.ec">
+    <category>Talk</category>
+    <title>Juan Sebastián Verón</title>
+  </programme>
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="DIRECTVSports2.ec">
+    <category>Documentary</category>
+    <title>Derby español: Me verás campeón</title>
+  </programme>
+  <programme start="20261022030000 +0000" stop="20261022050000 +0000" channel="DIRECTVSports+.ec">
+    <category>Basketball</category>
+    <title>Fenerbahçe Tarfin vs. Partizan Mozzart Bet</title>
+  </programme>
+  <programme start="20261022050000 +0000" stop="20261022053000 +0000" channel="DIRECTVSports+.ec">
+    <category>Motorcycle</category>
+    <title>Whistler</title>
+  </programme>
+  <programme start="20261022053000 +0000" stop="20261022073000 +0000" channel="DIRECTVSports+.ec">
+    <category>Motorcycle</category>
+    <title>Lake Placid: Finales de Cross Country Short Track femenino y masculino</title>
+  </programme>
+  <programme start="20261022073000 +0000" stop="20261022080000 +0000" channel="DIRECTVSports+.ec">
+    <category>Talk</category>
+    <title>Nairo Quintana</title>
+  </programme>
+  <programme start="20261022080000 +0000" stop="20261022103000 +0000" channel="DIRECTVSports+.ec">
+    <category>Volleyball</category>
+    <title>Acqua Sant'Anna Cuneo vs. Sir Susa Scai Perugia</title>
+  </programme>
+  <programme start="20261022103000 +0000" stop="20261022113000 +0000" channel="DIRECTVSports+.ec">
+    <category>Basketball</category>
+    <title>DSPORTS Básquet</title>
+  </programme>
+  <programme start="20261022113000 +0000" stop="20261022140000 +0000" channel="DIRECTVSports+.ec">
+    <title>Power Slap</title>
+  </programme>
+  <programme start="20261022140000 +0000" stop="20261022150000 +0000" channel="DIRECTVSports+.ec">
+    <category>Bicycle</category>
+    <title>Tour de la República Checa 2026</title>
+  </programme>
+  <programme start="20261022150000 +0000" stop="20261022160000 +0000" channel="DIRECTVSports+.ec">
+    <category>Bicycle</category>
+    <title>Eneco Tour Femenino: Etapa 5</title>
+  </programme>
+  <programme start="20261022160000 +0000" stop="20261022183000 +0000" channel="DIRECTVSports+.ec">
+    <category>Volleyball</category>
+    <title>Acqua Sant'Anna Cuneo vs. Sir Susa Scai Perugia</title>
+  </programme>
+  <programme start="20261022183000 +0000" stop="20261022190000 +0000" channel="DIRECTVSports+.ec">
+    <title>22/23</title>
+  </programme>
+  <programme start="20261022190000 +0000" stop="20261022210000 +0000" channel="DIRECTVSports+.ec">
+    <category>Basketball</category>
+    <title>Estrella Roja de Belgrado vs. Paris</title>
+  </programme>
+  <programme start="20261022210000 +0000" stop="20261022213000 +0000" channel="DIRECTVSports+.ec">
+    <category>Talk</category>
+    <title>Guillermo Coria</title>
+  </programme>
+  <programme start="20261022213000 +0000" stop="20261022223000 +0000" channel="DIRECTVSports+.ec">
+    <category>Basketball</category>
+    <title>DSPORTS Básquet</title>
+  </programme>
+  <programme start="20261022223000 +0000" stop="20261022225000 +0000" channel="DIRECTVSports+.ec">
+    <category>Documentary</category>
+    <title>Final Supercopa Internacional 2022: Racing vs. Boca</title>
+  </programme>
+  <programme start="20261022225000 +0000" stop="20261023010000 +0000" channel="DIRECTVSports+.ec">
+    <category>Soccer</category>
+    <title>Chile Sub-17 vs. México Sub-17</title>
+  </programme>
+  <programme start="20261023010000 +0000" stop="20261023030000 +0000" channel="DIRECTVSports+.ec">
+    <category>Soccer</category>
+    <title>España Sub-17 vs. Australia Sub-17</title>
+  </programme>
+  <programme start="20261023030000 +0000" stop="20261023050000 +0000" channel="DIRECTVSports+.ec">
+    <category>Basketball</category>
+    <title>Maccabi Rapyd Tel Aviv vs. Real Madrid</title>
+  </programme>
+  <programme start="20261023050000 +0000" stop="20261023053000 +0000" channel="DIRECTVSports+.ec">
+    <category>Bicycle</category>
+    <title>Urban Sessions: Bruselas</title>
+  </programme>
+  <programme start="20261023053000 +0000" stop="20261023073000 +0000" channel="DIRECTVSports+.ec">
+    <title>Nannup, día 1 y día 2</title>
+  </programme>
+  <programme start="20261023073000 +0000" stop="20261023093000 +0000" channel="DIRECTVSports+.ec">
+    <category>Bicycle</category>
+    <title>Gran Piemonte</title>
+  </programme>
+  <programme start="20261023093000 +0000" stop="20261023113000 +0000" channel="DIRECTVSports+.ec">
+    <category>Basketball</category>
+    <title>Panathinaikos Aktor vs. Kosner Baskonia</title>
+  </programme>
+  <programme start="20261023113000 +0000" stop="20261023140000 +0000" channel="DIRECTVSports+.ec">
+    <category>Martial Arts</category>
+    <title>Professional Fighters League Mena</title>
+  </programme>
+  <programme start="20261023140000 +0000" stop="20261023160000 +0000" channel="DIRECTVSports+.ec">
+    <title>Nannup, día 1 y día 2</title>
+  </programme>
+  <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="DIRECTVSports+.ec">
+    <category>Talk</category>
+    <title>Nairo Quintana</title>
+  </programme>
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="DIRECTVSports+.ec">
+    <category>Basketball</category>
+    <title>Panathinaikos Aktor vs. Kosner Baskonia</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022033000 +0000" channel="FOXSports.sv">
     <title>Atlantic</title>
@@ -16311,7 +16512,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="FOXSports.sv">
     <title>La última palabra</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="FOXSports.sv">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="FOXSports.sv">
     <title>Central Fox</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022050000 +0000" channel="WinSports.co">
@@ -16398,7 +16599,7 @@
     <category>History</category>
     <title>Los hijos de los Andes</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="WinSports.co">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="WinSports.co">
     <category>Soccer</category>
     <title>Planeta Fútbol</title>
   </programme>
@@ -16492,7 +16693,7 @@
     <category>Soccer</category>
     <title>Liga I 2025: Once Caldas vs. Independiente Santa Fe</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="WinSports+.co">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="WinSports+.co">
     <category>Soccer</category>
     <title>Campeonato Colombiano 1996-97: Junior vs. Once Caldas</title>
   </programme>
@@ -16583,7 +16784,7 @@
   <programme start="20261023140000 +0000" stop="20261023150000 +0000" channel="ESPN.sv">
     <title>SportsCenter</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="ESPN.sv">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="ESPN.sv">
     <title>Bay FC vs. Portland Thorns</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="ESPN2.sv">
@@ -16679,7 +16880,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="ESPN2.sv">
     <title>SportsCenter</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="ESPN2.sv">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="ESPN2.sv">
     <title>ESPN Enfocados</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022050000 +0000" channel="ESPN3.gt">
@@ -16757,7 +16958,7 @@
   <programme start="20261023130000 +0000" stop="20261023150000 +0000" channel="ESPN3.gt">
     <title>Palmeiras (Bra) vs. Fluminense (Bra)</title>
   </programme>
-  <programme start="20261023150000 +0000" stop="20261023164458 +0000" channel="ESPN3.gt">
+  <programme start="20261023150000 +0000" stop="20261023165211 +0000" channel="ESPN3.gt">
     <title>Flamengo (Bra) vs. Estudiantes (LP) (Arg)</title>
   </programme>
   <programme start="20261022033000 +0000" stop="20261022043000 +0000" channel="ESPN4.pa">
@@ -16904,7 +17105,7 @@
     <category>Auto</category>
     <title>El Show de la F1</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="ESPN5.ec">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="ESPN5.ec">
     <category>Soccer</category>
     <title>OFI Creta vs. Bayer 04 Leverkusen</title>
   </programme>
@@ -16998,7 +17199,7 @@
     <category>Soccer</category>
     <title>Real Madrid vs. RB Leipzig</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="ESPN6.ec">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="ESPN6.ec">
     <category>Soccer</category>
     <title>Lille OSC vs. Galatasaray</title>
   </programme>
@@ -17077,7 +17278,7 @@
   <programme start="20261023151000 +0000" stop="20261023152000 +0000" channel="ESPNPremium.ar">
     <title>Fútbol Argentino Primera División : Resumen: Fecha 13</title>
   </programme>
-  <programme start="20261023152000 +0000" stop="20261023164458 +0000" channel="ESPNPremium.ar">
+  <programme start="20261023152000 +0000" stop="20261023165211 +0000" channel="ESPNPremium.ar">
     <title>Fútbol Argentino Torneo de Reserva : Racing Club vs. San Lorenzo</title>
   </programme>
   <programme start="20261022040000 +0000" stop="20261022060000 +0000" channel="ESPN7.ec">
@@ -17156,12 +17357,9 @@
     <category>Soccer</category>
     <title>Bayern Munich vs. Arsenal</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="ESPN7.ec">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="ESPN7.ec">
     <category>Soccer</category>
     <title>Bournemouth vs. AC Milan</title>
-  </programme>
-  <programme start="20261022024500 +0000" stop="20261022050000 +0000" channel="ESPN.co">
-    <title>Montevideo City Torque (Uru) vs. Atl. Mineiro (Bra)</title>
   </programme>
   <programme start="20261022050000 +0000" stop="20261022073000 +0000" channel="ESPN.co">
     <title>Palmeiras (Bra) vs. Fluminense (Bra)</title>
@@ -17244,7 +17442,7 @@
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="ESPN.co">
     <title>SportsCenter</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="ESPN.co">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="ESPN.co">
     <title>SportsCenter</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="ESNETV.cr">
@@ -17382,7 +17580,7 @@
   <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="ESNETV.cr">
     <title>La Coronilla de la Divina Misericordia Cantada</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="ESNETV.cr">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="ESNETV.cr">
     <title>Donde Dios llora</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="Canal21.ar">
@@ -17505,7 +17703,7 @@
   <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="Canal21.ar">
     <title>Nuestra Misa</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="Canal21.ar">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="Canal21.ar">
     <title>Poliedro Latinoamericano</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022034000 +0000" channel="Cristovision.co">
@@ -17679,7 +17877,7 @@
   <programme start="20261023160000 +0000" stop="20261023163000 +0000" channel="Cristovision.co">
     <title>Coronilla</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="Cristovision.co">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="Cristovision.co">
     <title>Llena tu día de Dios</title>
   </programme>
   <programme start="20261022030000 +0000" stop="20261022032500 +0000" channel="TeleVid.co">
@@ -17922,7 +18120,7 @@
   <programme start="20261023160300 +0000" stop="20261023163000 +0000" channel="TeleVid.co">
     <title>Coronilla</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="TeleVid.co">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="TeleVid.co">
     <title>Santo Rosario</title>
   </programme>
   <programme start="20261022042000 +0000" stop="20261022070000 +0000" channel="Sony.sv">
@@ -18029,7 +18227,7 @@
   <programme start="20261023151000 +0000" stop="20261023160000 +0000" channel="Sony.sv">
     <title>Anatomía según Grey</title>
   </programme>
-  <programme start="20261023160000 +0000" stop="20261023164458 +0000" channel="Sony.sv">
+  <programme start="20261023160000 +0000" stop="20261023165211 +0000" channel="Sony.sv">
     <title>The Town Doctor</title>
   </programme>
   <programme start="20261022040000 +0000" stop="20261022053000 +0000" channel="SONYMOVIES.uy">
@@ -18166,7 +18364,7 @@
     <category>Comedia</category>
     <title>Los Goldberg</title>
   </programme>
-  <programme start="20261023163000 +0000" stop="20261023164458 +0000" channel="SONYMOVIES.uy">
+  <programme start="20261023163000 +0000" stop="20261023165211 +0000" channel="SONYMOVIES.uy">
     <title>Misterio en el set: asesinato a la carta</title>
   </programme>
 </tv>
