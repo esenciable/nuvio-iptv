@@ -13,6 +13,19 @@
   <programme start="20260101120000 +0000" stop="20260101130000 +0000" channel="Canal2.sv">
     <title>Noticiero</title>
   </programme>
+  <!-- Filler a real source publishes instead of listings: none of these may reach the guide. -->
+  <programme start="20260101130000 +0000" stop="20260101140000 +0000" channel="Canal2.sv">
+    <title>Paid Programming</title>
+  </programme>
+  <programme start="20260101140000 +0000" stop="20260101150000 +0000" channel="Canal2.sv">
+    <title>Programa pagado</title>
+  </programme>
+  <programme start="20260101150000 +0000" stop="20260101160000 +0000" channel="Canal2.sv">
+    <title>SIGN OFF</title>
+  </programme>
+  <programme start="20260101160000 +0000" stop="20260101170000 +0000" channel="Canal2.sv">
+    <title>No Match Today</title>
+  </programme>
   <programme start="20260101060000 +0000" stop="20260101070000 +0000" channel="Canal2.sv">
     <title>Before Window</title>
   </programme>

@@ -9,7 +9,7 @@
  * read.
  */
 import { readFileSync } from 'node:fs';
-import { buildChannelIndex, collectProgrammes, matchEpgChannel, sourceZone } from './lib/epg.mjs';
+import { buildChannelIndex, collectProgrammes, matchEpgChannel, NO_GUIDE, sourceZone } from './lib/epg.mjs';
 
 /**
  * Mirror/decorations a feed appends to a channel that is the SAME stream: `[Opc.2]`, `(Opc. 3)`,
@@ -79,8 +79,12 @@ export async function resolveGuide(options) {
 
   entries.forEach((entry, index) => {
     const alias = aliases[entry.name];
-    if (alias !== undefined && alias !== '') ids[index] = alias;
-    else pending.push(index);
+    if (alias === undefined || alias === '') pending.push(index);
+    // A blocked name stays unresolved and never reaches the per-country matcher. Left in
+    // pending it would be picked up by plain matching, which is exactly the mistake the block
+    // exists to prevent: 'FOX' would auto-match the US FOX4K event feed.
+    else if (alias === NO_GUIDE) ids[index] = null;
+    else ids[index] = alias;
   });
 
   const programmes = {};
